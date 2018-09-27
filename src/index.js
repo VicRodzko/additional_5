@@ -5,7 +5,7 @@ module.exports = function check(str, bracketsConfig) {
 	for (let k = 0; k < 30; k++) {
 		for (let i = 0; i < bracketsConfig.length; i++) {
 			configStr = bracketsConfig[i].join('');
-			while ("крути педали") {
+			while ("Work until I stop you!") {
 				if (str.includes(configStr)) {
 					str = str.replace(configStr, '');
 				} else break;
